@@ -12,9 +12,9 @@ def get_db():
 
 @app.route('/db/create_table', methods=['POST'])
 def insert_table():
-    # table_name = request.json['tableName']
-    # columns = request.json['columns']
-    # create_table(db, table_name, columns)
+    table_name = request.json['tableName']
+    columns = request.json['columns']
+    create_table(db, table_name, columns)
     return jsonify(db)
 
 
