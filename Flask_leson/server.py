@@ -46,3 +46,6 @@ def insert_table_row_by_id_delete():
 if __name__ == '__main__':
     db = create_db('server_db', 'Vova', 'q1q2w3r4')
     app.run(debug=False)
+
+
+# hgyggugugyg
